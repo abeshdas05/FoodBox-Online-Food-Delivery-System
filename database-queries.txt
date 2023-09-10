@@ -1,0 +1,42 @@
+
+# First the Spring Boot application is run and the tables are created by JPA Hibernate
+# Database name - foodbox
+# Tables created by Spring Boot - admin, cart_item, category, contact_form, food_item, orders, review, user
+# Sample data for category 
+
+
+INSERT INTO foodbox.category (name)
+VALUES
+('Italian'),
+('Chinese'),
+('Mexican'),
+('South Indian'),
+('North Indian'),
+('Beverages');
+
+# Sample data for food_item 
+
+INSERT INTO foodbox.food_item (name, category_id, available_quantity, description, enabled, actual_price,offer, image_path)
+VALUES
+('Margherita Pizza', 1, 20, 'Classic Italian pizza with tomatoes and cheese', true, 500.75,20, "https://cdn.pixabay.com/photo/2017/02/15/10/57/pizza-2068272_640.jpg"),
+('Sweet and Sour Chicken', 2, 15, 'Tender chicken in sweet and sour sauce', true, 450.75,30, "https://cdn.pixabay.com/photo/2016/07/31/17/51/chicken-1559548_1280.jpg"),
+('Taco Platter', 3, 10, 'Assorted tacos with various fillings', true, 375.50,0,"https://cdn.pixabay.com/photo/2019/12/20/21/17/taco-4709325_640.jpg"),
+('Masala Dosa', 4, 25, 'Crispy dosa filled with spiced potato mixture', true, 150.00,15,"https://stackumbrella.com/wp-content/uploads/2019/10/dosa-1.jpg"),
+('Rava Upma', 4, 20, 'Savory dish made from semolina and spices', true, 75.00,10,"https://th.bing.com/th/id/OIP.TnxDl4dgdBuZAKMGG4VSJwAAAA?pid=ImgDet&rs=1"),
+('Butter Chicken', 5, 18, 'Creamy tomato-based chicken curry', true, 250.75,0,"https://www.licious.in/blog/wp-content/uploads/2020/10/butter-chicken-.jpg"),
+('Palak Paneer', 5, 15, 'Paneer cubes in a spinach-based gravy', true, 200.00,10,"https://th.bing.com/th/id/OIP.lTIW1bA4d4cKZ9G1gVusHQHaE7?pid=ImgDet&rs=1"),
+('Espresso', 6, 30, 'Strong and concentrated coffee', true, 150.75,5,"https://www.perfectdailygrind.com/wp-content/uploads/2018/01/Espresso-e1517109809837.jpg"),
+('Chai', 6, 25, 'Traditional Indian spiced tea', true, 50.00,15,"https://i.ytimg.com/vi/JuK-RtjLOfc/maxresdefault.jpg"),
+('Orange Juice', 6, 40, 'Freshly squeezed orange juice', true, 75.00,0,"https://www.thehealthy.com/wp-content/uploads/2019/09/GettyImages-825882916.jpg");
+
+#sample data for admin
+
+INSERT INTO foodbox.admin (email, employee_id, name, password) VALUES
+('admin1@gmail.com',	'AD0001',	'Admin1',	'123@Bc'),
+('admin2@gmail.com',	'AD0002',	'Admin2',	'1_26@Gt');
+
+#sample data for user
+
+INSERT INTO foodbox.user (email, mobile_number ,name, password) VALUES
+('user1@gmail.com',	'1234567890',	'User1',	'733@Bc'),
+('user2@gmail.com',	'2234567890',	'User2',	'5_t6@Gt');
