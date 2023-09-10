@@ -25,5 +25,7 @@ Details about setting up the project and running it can be provided here.
 
 Disclaimer ⚠️
 This is a personal project and is meant for demonstration purposes.
+
 While I've put effort into its development, I won't be providing ongoing support or updates. 
+
 Feel free to explore, learn, and even fork the repository, but please understand the limitations.
