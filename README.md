@@ -4,6 +4,7 @@ Delicious Delivered: Online Food Delivery Platform 🍕🚀
 Welcome to 'Delicious Delivered' - my personal endeavor into creating an efficient and modern food delivery platform. Leveraging the interactivity of Angular on the frontend and the robust capabilities of Spring Boot on the backend, this project is a testament to what passionate coding can create.
 
 Features 🌟
+
 Angular-Powered UI: A user-centric interface that's both dynamic and responsive.
 Spring Boot Backend: Ensures a seamless, secure, and efficient backend operation.
 Diverse Menu Choices: A palate of cuisines, from mouth-watering Asian dishes to classic European delights.
